@@ -1,0 +1,109 @@
+
+body {
+    font-family:"lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-size: 18px;
+}
+
+P, li {
+    line-height: 20px;
+    word-break: break-all;
+}
+
+H1 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+}
+
+H2 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+    margin-bottom: 60px;
+    margin-bottom: 40px;
+    padding: 5px;
+    border-bottom: 2px LightGrey solid;
+    width: 98%;
+    line-height: 150%;
+    color: #666666;
+}
+
+
+H3 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px LightGrey solid;
+    width: 98%;
+    line-height: 150%;
+    color: #666666;
+}
+
+
+H4 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px LightGrey solid;
+    width: 98%;
+    line-height: 150%;
+    color: #666666;
+}
+
+li {
+    margin-left: 10px;
+}
+
+div.inner {
+    margin: 0% 14%;
+    padding: 2% 8% 4% 8%;
+    border: 1px solid LightGrey;
+}
+
+.comment {
+    font-size:16px;
+    height:40px;
+    border-radius:4px;
+    border:1px solid #c8cccf;
+    color:#6a6f77;
+    display:block;
+    outline:0;
+    padding:10px;
+    width:100%;
+    resize:none;
+    margin-top:100px;
+}
+
+
+#submit{
+    border:none;
+}
+
+.comments{
+    margin-top:100px;
+}
+
+.li{
+    border-top:dotted;
+    border-width: 1px;
+    list-style: none;
+}
+
+.ol2{
+    padding:0;
+}
+
+#error{
+    display:none;
+    color:red;
+    margin-top:5px;
+    margin-bottom:0px;
+}
+
+.tech{
+    width:100%;
+}
+
+.tips{
+    color:red;
+}
+
+.li p{
+    display:inline-block;
+}

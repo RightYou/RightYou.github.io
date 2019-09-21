@@ -1,0 +1,62 @@
+<html>
+    <head>
+
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+        <link href="css.css" rel="stylesheet" type="text/css">
+
+        <title>前端</title>
+
+    </head>
+
+    <body>
+
+        <div class="inner">
+            <h2>这是一篇关于前端的任务书</h2>
+            <p>首先我们来学习一下javascript的内容吧，接下来我会列出需要完成的任务，你可以通过学长推荐的书籍，网站，或者百度的方式来完成下面的练习</p>
+            <h3>任务一</h3>
+            <p>看到下面丑的没脸见人的评论框了吗，帮他换一身打扮吧</p>
+            <p class="tips">tips:只需要通过js给评论评论框的class加上"comment"就好啦,".comment"的样式已经帮你写好了</p>
+            <p>如果完成了的话结果应该是这样子的</p>
+            <img src="img/comment.png" alt="" class="tech">
+            <h3>任务二</h3>
+            <p>然后是边上的按钮，这回需要你自己帮他打扮啦，并且它需要你把它放在评论框的右下角</p>
+            <p class="tips">tips:可以尝试用js来修改按钮的样式</p>
+            <p>尝试一下在鼠标悬浮在按钮上的时候加点特效吧，比如这样</p>
+            <img src="img/submit.gif" alt="" class="tech">
+            <h3>任务三</h3>
+            <p>修改完毕，可以尝试一下发表评论啦</p>
+            <p>奇怪了，怎么发不出来？</p>
+            <p>好吧，试一下怎么能把评论框的文字添加上去吧</p>
+            <p>完成以后的效果应该是这样的</p>
+            <img src="img/comment.gif" alt="" class="tech">
+            <h3>任务四</h3>
+            <p>那如果要发一大段的文字的话，要怎么实现评论框随着文字长度的变化动态的变化高度呢</p>
+            <p>完成以后的效果应该是这样的（记得去掉评论框的滚轮）</p>
+            <img src="img/comments.gif" alt="" class="tech">
+            <h3>任务五</h3>
+            <p>现在需要屏蔽一些空白的评论，尝试一下像这样子做一个小贴士吧</p>
+            <p>如果读者在输入文字以后记得让小贴士迅速消失</p>
+            <img src="img/error.gif" alt="" class="tech">
+            <h3>任务六</h3>
+            <p>想给评论区的大佬点个赞吗，那就来建立一个点赞系统吧</p>
+            <p>要求效果如下图所示，需要在评论尾部添加一个点赞标志，点击会变红，若点赞总数大于一，则出现点赞总数，再次点击会变回原来的样子</p>
+            <p class="tips">tips:点赞的图片已经在img文件夹里了，可以自取</p>
+            <img src="img/like.gif" alt="" class="tech">
+            <div>
+                <form action="" method="GET" id="form">
+                    <textarea id="comment" placeholder="来发表一下你的看法吧"></textarea>
+                    <p id="error">请输入内容以后再点击提交</p>
+                    <input type="submit" id="submit" value="发表评论">
+                </form>
+            </div>
+            <div class="comments">
+                <ol class="ol2" id="comments">
+                    <li class="li"><p>111111</p></li>
+                    <li class="li"><p>可以加一下联系方式吗，有一个问题想请教一下</p></li>
+                </ol>
+            </div>
+        </div>
+        
+    </body>
+</html>
